@@ -72,42 +72,73 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*ʜᴇʏ* {}, 🥀
+*Merhaba,*
 
-*๏ ᴛʜɪs ɪs* {} !
-➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+             ◯     {}㊣     ◯
 
-──────────────────
-*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.*
+ ╚══════════════════════╝
+
+☞ʙᴀᴢɪ ʜᴀʀɪᴋᴀ ᴠᴇ ᴋᴜʟʟᴀɴɪꜱʟɪ ᴏᴢᴇʟʟɪᴋʟᴇʀᴇ               
+
+    ꜱᴀʜɪᴘ ᴇɴ ɢᴜᴄʟᴜ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴜʙᴜ   
+
+    ʏᴏɴᴇᴛɪᴍ ʙᴏᴛᴜᴅᴜʀ.
+
+ ╔══════════════════════╗
+
+☞ᴍᴏᴅᴜʟʟᴇʀɪᴍ ᴠᴇ ᴋᴏᴍᴜᴛʟᴀʀɪᴍ ʜᴀᴋᴋɪɴᴅᴀ    
+
+    ʙɪʟɢɪ ᴀʟᴍᴀᴋ ɪᴄɪɴ ʏᴀʀᴅɪᴍ(/help) ʙᴜᴛᴏɴᴜɴᴀ       
+
+    ᴛɪᴋʟᴀʏɪɴɪᴢ.
+
+iletişim: @nihilanth0
 """
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
-            url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-        ),
+
+        InlineKeyboardButton(text="𝙱𝚎𝚗𝚒 𝙶𝚛𝚞𝚋𝚞𝚗𝚊 𝙴𝚔𝚕𝚎 ★",url=f"https://t.me/DolunayManager_bot?startgroup=true"),
+
     ],
+
     [
-        InlineKeyboardButton(text="ʜᴇʟᴩ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+
+        InlineKeyboardButton(text="𝙳𝚎𝚜𝚝𝚎𝚔 ☂", url=f"https://t.me/dolunaydestek"),
+
+        
+
     ],
+
     [
-        InlineKeyboardButton(text="❄ ᴀʙᴏᴜᴛ ❄", callback_data="fallen_"),
-        InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT_CHAT}"),
+
+        
+
+        InlineKeyboardButton(text="𝚈𝚊𝚙𝚊𝚢 𝚉𝚎𝚔𝚊 𝙱𝚘𝚝𝚞 ♝", url=f"https://t.me/DolunayAIBot"),
+
+        InlineKeyboardButton(text="𝙼𝚞𝚣𝚒𝚔 𝙱𝚘𝚝𝚞 ♬", url=f"https://t.me/DolunayMusic_bot"),
+
     ],
+
     [
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="☁️ sᴏᴜʀᴄᴇ ☁️", callback_data="source_"),
-    ],
+
+        InlineKeyboardButton(text="𝙶𝚎𝚕𝚒𝚜𝚝𝚒𝚛𝚒𝚌𝚒 ☪", url=f"https://t.me/nihilanth0"),
+
+     ],
 ]
 
 HELP_STRINGS = f"""
-*» {BOT_NAME} ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs*
+* {BOT_NAME}㊣
 
-➲ /start : ꜱᴛᴀʀᴛꜱ ᴍᴇ | ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍᴇ ʏᴏᴜ'ᴠᴇ ᴀʟʀᴇᴀᴅʏ ᴅᴏɴᴇ ɪᴛ.
-➲ /help  : ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ ꜱᴇᴄᴛɪᴏɴ.
-  ‣ ɪɴ ᴘᴍ : ᴡɪʟʟ ꜱᴇɴᴅ ʏᴏᴜ ʜᴇʟᴘ ꜰᴏʀ ᴀʟʟ ꜱᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇꜱ.
-  ‣ ɪɴ ɢʀᴏᴜᴘ : ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇꜱ."""
+➥/start ʙᴇɴɪ ʙᴀꜱʟᴀᴛɪʀ.
+
+     
+
+➥/help ᴋᴜʟʟᴀɴɪʟᴀʙɪʟɪʀ ᴋᴏᴍᴜᴛʟᴀʀ ʙᴏʟᴜᴍᴜ.
+
+ 
+
+ᴋᴏᴍᴜᴛʟᴀʀ ʜᴀᴋᴋɪɴᴅᴀ ʙɪʟɢɪ ᴀʟᴍᴀᴋ ɪᴄɪɴ  ᴋᴀɴᴀʟɪᴍᴀ ɢᴏᴢ ᴀᴛᴀʙɪʟɪʀꜱɪɴɪᴢ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
