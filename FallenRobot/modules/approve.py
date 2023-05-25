@@ -192,17 +192,21 @@ def unapproveall_btn(update: Update, context: CallbackContext):
 
 
 __help__ = """
-Sometimes, you might trust a user not to send unwanted content.
-Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-
-That's what approvals are for - approve of trustworthy users to allow them to send 
-
-*Admin commands:*
-❍ /approval*:* Check a user's approval status in this chat.
-❍ /approve*:* Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-❍ /unapprove*:* Unapprove of a user. They will now be subject to locks, blacklists, and antiflood again.
-❍ /approved*:* List all approved users.
-❍ /unapproveall*:* Unapprove *ALL* users in a chat. This cannot be undone.
+» *Approve(Onaylı) için bulunan komutlar* :
+══════════════════════════════
+» Bazen bir kullanıcının istenmeyen içerik göndermeyeceğine güvenebilirsiniz. Belki onları yönetici yapmak için yeterli değildir, ancak kilitler, kara listeler ve flood önlemenin bunlar için geçerli olmaması sizin için sorun olmayabilir.
+» Onaylar bunun içindir - güvenilir kullanıcıların göndermelerine izin vermek için onaylayın.
+══════════════════════════════
+       *Yönetici komutları*:
+❍ /approval: Bu sohbette bir kullanıcının onay durumunu kontrol edin.
+──────────────────────────────
+❍ /approve: Bir kullanıcının onaylanması. Kilitler, kara listeler ve sel önleme artık onlar için geçerli olmayacak.
+──────────────────────────────
+❍ /unapprove: Kullanıcının onayını kaldırın. Artık kilitlere, kara listelere ve yeniden sele maruz kalacaklar.
+──────────────────────────────
+❍ /approved: Onaylanan tüm kullanıcıları listeleyin. 
+──────────────────────────────
+❍ /unapproveall: Bir sohbetteki TÜM kullanıcıların onayını kaldırın. Bu geri alınamaz.
 """
 
 APPROVE = DisableAbleCommandHandler("approve", approve, run_async=True)
