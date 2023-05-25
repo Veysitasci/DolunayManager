@@ -101,6 +101,8 @@ buttons = [
         InlineKeyboardButton(text="𝙱𝚎𝚗𝚒 𝙶𝚛𝚞𝚋𝚞𝚗𝚊 𝙴𝚔𝚕𝚎 ★",url=f"https://t.me/DolunayManager_bot?startgroup=true"),
 
     ],
+    [   InlineKeyboardButton(text="𝚈𝚊𝚛𝚍𝚒𝚖 & 𝙺𝚘𝚖𝚞𝚝𝚕𝚊𝚛 ☃", callback_data="help_back"),
+     ],
 
     [
 
