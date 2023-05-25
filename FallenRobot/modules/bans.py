@@ -395,14 +395,23 @@ def selfunban(context: CallbackContext, update: Update) -> str:
 
 
 __help__ = """
- ❍ /kickme*:* kicks the user who issued the command
-
-*Admins only:*
- ❍ /ban <userhandle>*:* bans a user. (via handle, or reply)
- ❍ /sban <userhandle>*:* Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
- ❍ /tban <userhandle> x(m/h/d)*:* bans a user for `x` time. (via handle, or reply). `m` = `minutes`, `h` = `hours`, `d` = `days`.
- ❍ /unban <userhandle>*:* unbans a user. (via handle, or reply)
- ❍ /kick <userhandle>*:* kicks a user out of the group, (via handle, or reply)
+ » *Ban için bulunan komutlar* :
+══════════════════════════════
+❍ /kickme: Komutu veren kullanıcıyı kick'ler
+══════════════════════════════
+       *Yalnızca yöneticiler*:
+──────────────────────────────
+❍ /ban <kullanıcı adı>: Bir kullanıcıyı yasaklar (Etiket veya yanıt yoluyla).
+──────────────────────────────
+❍ /sban <kullanıcı adı>: Bir kullanıcıyı sessizce yasaklar. Komutu, Cevaplanan mesajı siler ve cevap vermez. (Etiket veya yanıtla yoluyla).
+──────────────────────────────
+❍ /tban <kullanıcı adı> x(m/h/d): Bir kullanıcıyı x kez yasaklar. (Etiket veya yanıt yoluyla).
+                 ──────────────────
+                 m = dakika, h = saat, d = gün.
+──────────────────────────────
+❍ /unban <kullanıcı adı>: Bir kullanıcının engelini kaldırır. (Etiket veya yanıt yoluyla)
+──────────────────────────────
+❍ /kick <userhandle>: Bir kullanıcıyı gruptan atar, (Etiket veya yanıt yoluyla)
 """
 
 BAN_HANDLER = CommandHandler(["ban", "sban"], ban, run_async=True)
