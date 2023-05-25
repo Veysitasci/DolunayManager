@@ -2,8 +2,8 @@ class Config(object):
     LOGGER = True
 
     # Get this value from my.telegram.org/apps
-    API_ID = 6
-    API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+    API_ID = "20765181"
+    API_HASH = "e8ec2b740ac91dfce31faa3ef654d1a4"
 
     CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
@@ -18,19 +18,19 @@ class Config(object):
 
     SUPPORT_CHAT = "DevilsHeavenMF"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = ""  # Get bot token from @BotFather on Telegram
+    TOKEN = "5777935476:AAHodSw_RfGGbAVqBRm_jX597HlznhO7mBw"  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 1356469075  # User id of your telegram account (Must be integer)
+    OWNER_ID = 5894454190  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
-    DEMONS = []  # User id of support users
-    TIGERS = []  # User id of tiger users
-    WOLVES = []  # User id of whitelist users
+    DRAGONS = 5894454190  # User id of sudo users
+    DEV_USERS = 5894454190  # User id of dev users
+    DEMONS = 5894454190 # User id of support users
+    TIGERS = 5894454190  # User id of tiger users
+    WOLVES = 5894454190  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
