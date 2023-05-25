@@ -883,27 +883,45 @@ def adminlist(update, context):
 
 
 __help__ = """
-*User Commands*:
-» /admins*:* list of admins in the chat
-» /pinned*:* to get the current pinned message.
-
-*The Following Commands are Admins only:* 
-» /pin*:* silently pins the message replied to - add `'loud'` or `'notify'` to give notifs to users
-» /unpin*:* unpins the currently pinned message
-» /invitelink*:* gets invitelink
-» /promote*:* promotes the user replied to
-» /lowpromote*:* promotes the user replied to with half rights
-» /fullpromote*:* promotes the user replied to with full rights
-» /demote*:* demotes the user replied to
-» /title <title here>*:* sets a custom title for an admin that the bot promoted
-» /admincache*:* force refresh the admins list
-» /del*:* deletes the message you replied to
-» /purge*:* deletes all messages between this and the replied to message.
-» /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
-» /setgtitle <text>*:* set group title
-» /setgpic*:* reply to an image to set as group photo
-» /setdesc*:* Set group description
-» /setsticker*:* Set group sticker
+» *Yöneticiler için bulunan komutlar* : 
+══════════════════════════════
+       *Kullanıcı Komutları:*
+❍ /admins: Sohbetteki yöneticilerin listesini almak için.
+──────────────────────────────
+❍ /pinned: Mevcut sabitlenmiş mesajı almak için.
+══════════════════════════════
+       *Yönetici Komutları:*
+❍ /pin: Yanıtlanan mesajı sabitler ve kullanıcılara bildirim vermek için 'loud'(sesli) veya 'notify'(sessiz) ekleyin.
+──────────────────────────────
+❍ /unpin: Mevcut sabitlenmiş mesajın sabitlemesini kaldırır.
+──────────────────────────────
+❍ /invitelink: Davet bağlantısını alır.
+──────────────────────────────
+❍ /promote: Yanıtlanan kullanıcıyı yükseltir.
+──────────────────────────────
+❍ /lowpromote: Yarım yetkiyle yanıtlanan kullanıcıyı yükseltir.
+──────────────────────────────
+❍ /fullpromote: Tam yetkiyle yanıtlanan kullanıcıyı yükseltir.
+──────────────────────────────
+❍ /demote: Yanıtlanan kullanıcının yetkisini düşürür.
+──────────────────────────────
+❍ /title <başlık adı>: Botun yetki verdiği bir yönetici için özel bir başlık ayarlar.
+──────────────────────────────
+❍ /admincache: Yönetici listesini yeniler.
+──────────────────────────────
+❍ /del: Cevapladığınız mesajı siler.
+──────────────────────────────
+❍ /purge: Bununla yanıtlanan mesaj arasındaki tüm mesajları siler.
+──────────────────────────────
+❍ /purge <sonraki mesajX>: Cevaplanan mesajı ve bir mesaja cevap verildiyse ondan sonraki X mesajı siler.
+──────────────────────────────
+❍ /setgtitle <metin>: Grup başlığını ayarlar.
+──────────────────────────────
+❍ /setgpic: Grup fotoğrafı olarak ayarlamak için bir resme yanıt verin.
+──────────────────────────────
+❍ /setdesc: Grup açıklamasını ayarlar.
+──────────────────────────────
+❍ /setsticker: Grup etiketini ayarlar.
 """
 
 SET_DESC_HANDLER = CommandHandler("setdesc", set_desc, run_async=True)
