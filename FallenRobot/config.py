@@ -7,16 +7,16 @@ class Config(object):
 
     CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://zsnbfxaj:qUWKq8E8AMVtjtt88nNr3Gd6_FwhGCLj@mahmud.db.elephantsql.com/zsnbfxaj"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = ()  # Event logs channel to note down important bot level events
+    EVENT_LOGS = (-1001845855602)  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = "mongodb+srv://veysi7074:UTNs8dpY4Fn28mAY@cluster0.nigbbzs.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
     START_IMG = "https://te.legra.ph/file/40eb1ed850cdea274693e.jpg"
 
-    SUPPORT_CHAT = "DevilsHeavenMF"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "dolunaydestek"  # Your Telegram support group chat username where your users will go and bother you
 
     TOKEN = "5777935476:AAHodSw_RfGGbAVqBRm_jX597HlznhO7mBw"  # Get bot token from @BotFather on Telegram
 
