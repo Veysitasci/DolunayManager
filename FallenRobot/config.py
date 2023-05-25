@@ -5,11 +5,11 @@ class Config(object):
     API_ID = "20765181"
     API_HASH = "e8ec2b740ac91dfce31faa3ef654d1a4"
 
-    CASH_API_KEY = ""  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
+    CASH_API_KEY = "UU8GRMFH5BHIPW7U"  # Get this value for currency converter from https://www.alphavantage.co/support/#api-key
 
     DATABASE_URL = "postgres://zsnbfxaj:qUWKq8E8AMVtjtt88nNr3Gd6_FwhGCLj@mahmud.db.elephantsql.com/zsnbfxaj"  # A sql database url from elephantsql.com
 
-    EVENT_LOGS = (-1001845855602)  # Event logs channel to note down important bot level events
+    EVENT_LOGS = "-1001845855602"  # Event logs channel to note down important bot level events
 
     MONGO_DB_URI = "mongodb+srv://veysi7074:UTNs8dpY4Fn28mAY@cluster0.nigbbzs.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
 
@@ -20,7 +20,7 @@ class Config(object):
 
     TOKEN = "5777935476:AAHodSw_RfGGbAVqBRm_jX597HlznhO7mBw"  # Get bot token from @BotFather on Telegram
 
-    TIME_API_KEY = ""  # Get this value from https://timezonedb.com/api
+    TIME_API_KEY = "wget -N monitoring.platform360.io/agent360.sh && bash agent360.sh 6419a758575ecc59860d6f97"  # Get this value from https://timezonedb.com/api
 
     OWNER_ID = 5894454190  # User id of your telegram account (Must be integer)
 
