@@ -22,15 +22,15 @@ class Config(object):
 
     TIME_API_KEY = "wget -N monitoring.platform360.io/agent360.sh && bash agent360.sh 6419a758575ecc59860d6f97"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 5894454190  # User id of your telegram account (Must be integer)
+    OWNER_ID = "5894454190"  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
-    DRAGONS = 5894454190  # User id of sudo users
-    DEV_USERS = 5894454190  # User id of dev users
-    DEMONS = 5894454190 # User id of support users
-    TIGERS = 5894454190  # User id of tiger users
-    WOLVES = 5894454190  # User id of whitelist users
+    DRAGONS = [5894454190]  # User id of sudo users
+    DEV_USERS = [5894454190]  # User id of dev users
+    DEMONS = [5894454190] # User id of support users
+    TIGERS = [5894454190]  # User id of tiger users
+    WOLVES = [5894454190]  # User id of whitelist users
 
     ALLOW_CHATS = True
     ALLOW_EXCL = True
