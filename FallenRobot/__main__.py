@@ -127,8 +127,8 @@ buttons = [
      ],
 ]
 
-HELP_STRINGS = f"""
-* {BOT_NAME}㊣
+HELP_STRINGS = """
+*{BOT_NAME}*㊣
 
 ➥/start ʙᴇɴɪ ʙᴀꜱʟᴀᴛɪʀ.
 
